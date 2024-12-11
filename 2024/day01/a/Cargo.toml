@@ -1,7 +1,6 @@
 [package]
-name = "day01a"
+name = "a"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-atoi = "2.0.0"

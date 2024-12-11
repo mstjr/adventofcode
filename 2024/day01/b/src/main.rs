@@ -3,7 +3,7 @@ use std::collections::HashMap;
 pub fn main() {
     let start = std::time::Instant::now();
     let (mut a, mut b) = (Vec::with_capacity(1000), Vec::with_capacity(1000));
-    let string = include_str!("../input.txt");
+    let string = include_str!("../../input.txt");
 
     for line in string.lines() {
         let mut iter = line.split_whitespace();
