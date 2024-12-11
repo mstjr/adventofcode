@@ -1,6 +1,5 @@
 use std::collections::HashMap;
-
-pub fn main() -> usize{
+pub fn main(){
     let start = std::time::Instant::now();
     let mut sum = 0;
 
@@ -50,7 +49,6 @@ pub fn main() -> usize{
     println!("{}", sum);
     println!("Time: {}μs", start.elapsed().as_micros()); //Average time: 2300μs
 
-    sum
 }
 
 fn correctly_order(vec: Vec<usize>, rules: &HashMap<usize, Vec<usize>>) -> Vec<usize> {
